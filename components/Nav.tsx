@@ -10,7 +10,7 @@ export default function Nav(){
         <main className="w-full h-1/6 p-8 flex items-center justify-between">
             <h1 className="md:text-xl lg:text-4xl tracking-widest">Yasar Arafath S</h1>
             <div onClick={changeTheme}
-            className={`${styles.button} p-2 sm:p-4 border-2 rounded-full cursor-pointer`}
+            className={`${styles.button} brd p-2 sm:p-4 border-2 rounded-full cursor-pointer`}
             >
                 {
                     theme === "light"? 

@@ -17,7 +17,10 @@ export const GlobalStyles = createGlobalStyle`
     body{
         background: ${({ theme }) => theme.background};
         color: ${({ theme }) => theme.text};
-        border-color: ${({ theme }) => theme.border};
         transition: all 0.5s linear;
+    }
+
+    .brd{
+        border-color: ${({ theme }) => theme.border};
     }
 `
