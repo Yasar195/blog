@@ -7,7 +7,7 @@ export default function Nav(){
     const { changeTheme, theme } = useStore((state: any) => ({changeTheme: state.changeTheme, theme: state.theme}))
 
     return(
-        <main className="w-full h-1/6 p-8 flex items-center justify-between">
+        <main className="w-full h-1/6 p-4 md:p-8 flex items-center justify-between">
             <h1 className="md:text-xl lg:text-4xl tracking-widest">Yasar Arafath S</h1>
             <div onClick={changeTheme}
             className={`${styles.button} brd p-2 sm:p-4 border-2 rounded-full cursor-pointer`}
