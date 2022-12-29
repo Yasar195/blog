@@ -25,6 +25,7 @@
     "zustand": "^4.1.5"
   },
   "devDependencies": {
+    "@types/react-syntax-highlighter": "^15.5.5",
     "@types/styled-components": "^5.1.26",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",
