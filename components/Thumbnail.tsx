@@ -4,7 +4,7 @@ import { GoCalendar } from 'react-icons/go';
 
 export default function Thumbnail(){
     return (
-        <div className="w-full h-fit p-6 md:w-4/6 md:p-8 lg:w-2/6 drop-shadow-xl border-2 rounded-2xl border-neutral-400">
+        <div className="w-full h-fit p-6 md:p-8 drop-shadow-xl border-2 rounded-2xl border-neutral-400">
             <Image className="w-full rounded-lg" src={docker} alt="img"/>
             <h1 className="mt-6 text-xl md:text-2xl">Introduction Docker containerisation and managing it with kubernetes cluster</h1>
             <div className="mt-6 w-full flex items-center justify-start">

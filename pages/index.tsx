@@ -6,6 +6,7 @@ import Nav from '../components/Nav'
 import { BsArrowDown } from 'react-icons/bs';
 import Thumbnail from '../components/Thumbnail';
 import Footer from '../components/Footer';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -39,9 +40,7 @@ export default function Home() {
             <h1 className='text-2xl md:text-4xl lg:text-5xl'>New articles</h1>
           </div>
           <div className='w-full mt-16 h-4/5 flex gap-8 items-center justify-start flex-col lg:flex-row'>
-            <Thumbnail/>
-            <Thumbnail/>
-            <Thumbnail/>
+            <Link className='w-full md:w-1/4' href="/read"><Thumbnail/></Link>
           </div>
         </div>
       </main>
