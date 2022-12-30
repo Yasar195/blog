@@ -5,8 +5,6 @@ import { BsArrowLeft } from 'react-icons/bs'
 import Link from "next/link"
 import styles from '../../styles/Read.module.css'
 import ReactMarkdown from "react-markdown"
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import { materialDark } from 'react-syntax-highlighter/dist/esm/styles/prism'
 
 export default function Read(){
 
@@ -23,20 +21,6 @@ export default function Read(){
                         <h1 className="text-sm md:text-xl lg:text-2xl">Back to Home</h1>
                     </div></Link>
                     <div className="w-full h-full">
-                        <ReactMarkdown className="text-2xl md:text-3xl">
-                            # hello
-                        </ReactMarkdown>
-                        <SyntaxHighlighter language="javascript" style={materialDark}>
-                            {
-                                "const message = `i've figured out`"
-                            }
-                        </SyntaxHighlighter>
-                        <SyntaxHighlighter language="python" style={materialDark}>
-                            {
-                                "print('this is a print statement')"
-                            }
-                        </SyntaxHighlighter>
-                        <ReactMarkdown># heading</ReactMarkdown>
                     </div>
                 </div>
             </main>
